@@ -5,7 +5,7 @@ import Footer from '../../components/footer/footer'
 const About = () => {
   return (
     <div className='flex flex-col min-h-screen'>
-      <Navbar></Navbar>
+      <Navbar/>
     <section 
     className="flex-grow w-full py-20 flex flex-col justify-center items-center text-center " 
     id="about"

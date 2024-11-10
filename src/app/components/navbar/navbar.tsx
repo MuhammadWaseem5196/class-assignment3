@@ -15,10 +15,10 @@ const Navbar = ()=> {
             <div className='hidden md:block'>
                 <div className='ml-4 flex items-center space-x-4'>
                     <Link href="/" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Home</Link>
-                    <Link href="/about" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>About</Link>
-                    <Link href="/services" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Services</Link>
-                    <Link href="/projects" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Projects</Link>
-                    <Link href="/contact" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Contact</Link>
+                    <Link href="/../../Rootfolder/about/" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>About</Link>
+                    <Link href="/../../Rootfolder/services/" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Services</Link>
+                    <Link href="/../../Rootfolder/projects/" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Projects</Link>
+                    <Link href="/../../Rootfolder/contact/" className='text-white hover:bg-white hover:text-gray-800 rounded-lg p-2'>Contact</Link>
                 </div>
             </div>
             

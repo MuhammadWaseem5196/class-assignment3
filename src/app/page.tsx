@@ -1,13 +1,15 @@
-import Navbar from "../components/navbar/navbar";
-import Hero from "../components/hero/hero";
-import Footer from "../components/footer/footer";
+import Footer from "./components/footer/footer";
+import Hero from "./components/hero/hero";
+import Navbar from "./components/navbar/navbar";
 
-export default function Home() {
-  return (
-    <div>
-      <Navbar />
-      <Hero/> 
-      <Footer></Footer>
-    </div>
-  );
+
+export default function Home(){
+
+  return(
+   <div>
+    <Navbar/>
+    <Hero/>
+    <Footer/>
+   </div>
+  )
 }
